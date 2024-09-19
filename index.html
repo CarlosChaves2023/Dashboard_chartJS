@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gráfico 1</title>
+</head>
+<body>
+    <div id="main">
+        <h1>Crescimento do PIB</h1>
+        <h2>1º semestre de 2024</h2>
+        <div>
+            <canvas id="dynamic-chart"></canvas>
+        </div>
+        <div id="legend">
+            <div class="legend">
+                <div id="value1" class="col"></div>
+                <h2>Janeiro</h2>
+            </div>
+            <div class="legend">
+                <div id="value2" class="col"></div>
+                <h2>Fevereiro</h2>
+            </div>
+            <div class="legend">
+                <div id="value3" class="col"></div>
+                <h2>Março</h2>
+            </div>
+            <div class="legend">
+                <div id="value4" class="col"></div>
+                <h2>Abril</h2>
+            </div>
+            <div class="legend">
+                <div id="value5" class="col"></div>
+                <h2>Maio</h2>
+            </div>
+            <div class="legend">
+                <div id="value6" class="col"></div>
+                <h2>Junho</h2>
+            </div>
+        </div>
+        <div id="btn">
+            <button class="btn" id="bar-button">Bar Chart</button>
+            
+            <button class="btn" id="line-button">Line Chart</button>
+
+            <button class="btn" id="doughNut-button">Doughnut Chart</button>
+        </div>
+
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+      
+</body>
+</html>

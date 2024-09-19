@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(23, 41, 23);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    width: 800px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+#btn {
+    text-align: center;
+}
+
+#bar-button {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px;
+}
+
+#line-button {
+    background-color: green;
+    color: white;
+    padding: 8px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px;
+}
+
+#doughNut-button {
+    background-color: red;
+    color: white;
+    padding: 8px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px;
+}
+
+#semestre1 {
+    background-color: green;
+    color: white;
+    padding: 8px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px;
+}
+
+#semestre2 {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px;
+}
+ 
+#legend {
+    margin: 38px;
+}
+
+.legend {
+    display: flex;
+}
+
+.legend h2 {
+    margin: 0 0 1px 10px;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.col {
+    width: 45px;
+    height: 30px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
