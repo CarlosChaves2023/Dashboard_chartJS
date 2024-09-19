@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -77,6 +83,8 @@ h2 {
 }
  
 #legend {
+    display: flex;
+    flex-direction: column;
     margin: 38px;
 }
 
@@ -87,12 +95,12 @@ h2 {
 .legend h2 {
     margin: 0 0 1px 10px;
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
 }
 
 .col {
-    width: 45px;
-    height: 30px;
+    width: 1.5rem;
+    height: 0.75rem;
     border: 1px solid black;
     margin-bottom: 10px;
     border-radius: 2px;
